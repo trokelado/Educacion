@@ -1,20 +1,20 @@
 <template>  
   <div class="content">
-    <div id="app" class="container-fluid">                                                
+    <div id="app" class="container-fluid">                                                      
       <div class="row">      
-        <!--div class="col s2">
+        <!--div class="col s12">
           <v-select v-model="selectedMap" :options="basemaps"></v-select>          
         </div-->
-        <div class="col s2">
+        <div class="col m3 s12">
           <v-select v-model="selectedMode" :options="['Consultar', 'Navegar', 'Agregar']"></v-select> 
         </div>
-        <!--div class="col s2">
+        <!--div class="col s12">
           <v-select v-model="selectedFigure" :options="['Puntos', 'Lineas', 'Poligonos', 'Proyectos']"></v-select> 
         </div-->
-        <div class="col s4">
+        <div class="col m3 s12">
           <v-select v-model="selectedLibrary" label="name" :options="libraries"></v-select>          
         </div>
-        <div class="col s4">
+        <div class="col m3 s12">
           <v-select v-model="selectedBook" label="title" :options="books"></v-select>          
         </div>
       </div>            

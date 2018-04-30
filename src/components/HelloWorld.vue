@@ -1,7 +1,6 @@
 <template>  
   <div class="content">
     <div class="container-fluid">
-
       <div class="background">        
         <div class="row">
           <div class="col s12 m8">
@@ -212,37 +211,35 @@
           </li>          
         </ul>
       </div> 
-
     </div>
-      <footer class="page-footer">
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l3 s12">                
+              <router-link to="/about"><span class="white-text">ABOUT EDUCON</span></router-link>
+              <p class="grey-text text-lighten-4">23621 15 mail Road C104 Clinton MI. 48035 New York, USA</p>
+            </div>
+            <div class="col l3 s12">                
+              <router-link to="/page"><span class="white-text">ADMISSION</span></router-link>
+              <p class="grey-text text-lighten-4">Forms and Admission materials Guidance Documents</p>                
+            </div>
+            <div class="col l3 s12">                
+              <router-link to="/course"><span class="white-text">COURSES</span></router-link>
+              <p class="grey-text text-lighten-4">Forms and Admission materials Guidance Documents</p>
+            </div>
+            <div class="col l3 s12">              
+              <router-link to="/news"><span class="white-text">NEWSLETTER</span></router-link>
+              <p class="grey-text text-lighten-4">Enter your Email and we´ll send you more information</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
           <div class="container">
-            <div class="row">
-              <div class="col l3 s12">                
-                <router-link to="/about"><span class="white-text">ABOUT EDUCON</span></router-link>
-                <p class="grey-text text-lighten-4">23621 15 mail Road C104 Clinton MI. 48035 New York, USA</p>
-              </div>
-              <div class="col l3 s12">                
-                <router-link to="/page"><span class="white-text">ADMISSION</span></router-link>
-                <p class="grey-text text-lighten-4">Forms and Admission materials Guidance Documents</p>                
-              </div>
-              <div class="col l3 s12">                
-                <router-link to="/course"><span class="white-text">COURSES</span></router-link>
-                <p class="grey-text text-lighten-4">Forms and Admission materials Guidance Documents</p>
-              </div>
-              <div class="col l3 s12">              
-                <router-link to="/news"><span class="white-text">NEWSLETTER</span></router-link>
-                <p class="grey-text text-lighten-4">Enter your Email and we´ll send you more information</p>
-              </div>
-            </div>
+          © Copyright EDUCON 2018
+          <!--a class="grey-text text-lighten-4 right" href="#!">More Links</a-->
           </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © Copyright EDUCON 2018
-            <!--a class="grey-text text-lighten-4 right" href="#!">More Links</a-->
-            </div>
-          </div>
-        </footer>
-
+        </div>
+      </footer>
   </div>
 </template>
 
@@ -261,7 +258,7 @@ M.Slider.init(slider, {
 // iniciacion de jquery para el slider de materializecss
 $(document).ready(function(){
   $('.slider').slider({    
-    interval: 4000    
+    interval: 5000    
   });
 });
 
